@@ -37,6 +37,7 @@
   font-family: "Livvic", sans-serif;
   line-height: 50px;
   margin-left: 20px;
+  cursor: pointer;
 }
 .counting #save-btn {
   width: 200px;
@@ -49,6 +50,7 @@
   font-size: 32px;
   font-family: "Livvic", sans-serif;
   line-height: 50px;
+  cursor: pointer;
 }
 .counting #save-el {
   margin-left: 130px;
@@ -57,4 +59,27 @@
   font-size: 32px;
   font-family: "Livvic", sans-serif;
   line-height: 50px;
+}
+
+@media only screen and (max-width: 375px) {
+  .counting {
+    width: 300px;
+    height: 500px;
+  }
+  .counting h1 {
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 70px;
+  }
+  .counting #count-el {
+    margin-left: 130px;
+  }
+  .counting #save-btn {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .counting #save-el {
+    font-size: 25px;
+    margin-left: 70px;
+  }
 }/*# sourceMappingURL=style.css.map */
